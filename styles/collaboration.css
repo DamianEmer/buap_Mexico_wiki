@@ -1,0 +1,38 @@
+.container-collaboration-page h1 {
+    text-align: center;
+    margin: 15px;
+  }
+  .container-collaboration-page .section {
+    height: auto;
+    width: 1005;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-collaboration-page .section .container {
+    width: 75%;
+    height: 100%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .container-collaboration-page .section .container .collaborator {
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    width: 70%;
+    padding: 8px;
+    margin: 15px 5px;
+  }
+  .container-collaboration-page .section .container .collaborator h2 {
+    text-align: start;
+    margin-left: 15px;
+  }
+  .container-collaboration-page .section .container .collaborator .paragraph {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.3em;
+  }
+  .container-collaboration-page .section .container .collaborator-2 {
+    align-self: flex-end;
+  }
