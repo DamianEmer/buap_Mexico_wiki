@@ -1,0 +1,122 @@
+.container-design-page .section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-design-page .section .container {
+    width: 75%;
+    height: 90%;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+}
+.container-design-page .section .container h2 {
+    width: 60%;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #303030;
+    text-align: start;
+    margin-bottom: 5px;
+}
+.container-design-page .section .container p {
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 17px;
+    line-height: 1.3em;
+}
+.container-design-page .section .container img {
+    width: 75%;
+    margin: 15px auto;
+}
+.container-design-page .section-1 {
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/description/materia-organica.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-design-page .section-1 .container-section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container-design-page .section-1 .container-section-1 h1 {
+    width: 50%;
+    text-align: start;
+    color: #fff;
+    font-size: 100px;
+    letter-spacing: 5px;
+    border-bottom: 10px solid #fff;
+    transition: font-size 12s;
+    -webkit-transition: font-size 2s;
+}
+.container-design-page .section-1 .container-section-1 p {
+    width: 100%;
+    font-size: 1.5em;
+    color: #fff;
+}
+@media screen and (min-width: 421px) and (max-width: 768px) {
+    .container-design-page .section-1 {
+        height: calc(100vh - 45px);
+        padding: 0;
+        background-size: auto;
+   }
+    .container-design-page .section-1 .container-section-1 {
+        justify-content: center;
+        align-items: center;
+   }
+    .container-design-page .section-1 .container-section-1 p {
+        color: #fff;
+        margin: 25px 0;
+        font-size: 1.2em;
+   }
+    .container-design-page .section-1 .container-section-1 h1 {
+        width: 100%;
+        text-align: center;
+        border-bottom: 5px solid #fff;
+        letter-spacing: 0;
+        font-size: 3.5em;
+   }
+}
+@media screen and (max-width: 420px) {
+    .container-design-page .section {
+        height: auto;
+        padding: 5% 0;
+   }
+    .container-design-page .section .container {
+        width: 85%;
+   }
+    .container-design-page .section .container p {
+        text-align: justify;
+        margin: 15px 0;
+   }
+    .container-design-page .section .container img {
+        margin: 12px 0;
+        margin: 10px auto;
+   }
+    .container-design-page .section-1 {
+        height: calc(100vh - 45px);
+        padding: 0;
+        background-size: auto;
+   }
+    .container-design-page .section-1 .container-section-1 {
+        justify-content: center;
+        align-items: center;
+   }
+    .container-design-page .section-1 .container-section-1 p {
+        color: #fff;
+        margin: 25px 0;
+        font-size: 1.2em;
+   }
+    .container-design-page .section-1 .container-section-1 h1 {
+        width: 100%;
+        text-align: center;
+        border-bottom: 5px solid #fff;
+        letter-spacing: 0;
+        font-size: 3.2em;
+   }
+}

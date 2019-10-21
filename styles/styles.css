@@ -122,4 +122,230 @@
     .container-description-page .section.section-4 .container-section-4 .paragraph-1 img, .container-description-page .section.section-4 .container-section-4 .paragraph-9 img {
         width: 90%;
    }
+
+   /*page "attribution"*/
+   .container-attribution-page h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+.container-attribution-page .section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-attribution-page .section .container {
+    height: 90%;
+    width: 75%;
+}
+.container-attribution-page .section .container p {
+    text-align: justify;
+}
+.container-attribution-page .section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+}
+.container-attribution-page .section-2 .container-section-2 {
+    display: flex;
+    flex-direction: row;
+}
+.container-attribution-page .section-2 .container-section-2 .column {
+    display: flex;
+    flex-direction: column;
+}
+.container-attribution-page .section-2 .container-section-2 .column .attribution {
+    margin: 15px 0;
+}
+.container-attribution-page .section-2 .container-section-2 .column .attribution .attr-data {
+    margin: 5px 0;
+}
+@media screen and (max-width: 768px) {
+    .container-attribution-page, h1{
+        margin: 10px 0;
+        text-align: center;
+   }
+    .container-attribution-page .section {
+        height: auto;
+   }
+    .container-attribution-page .section-2 .container-section-2 {
+        height: 90%;
+        flex-direction: column;
+   }
+}
+
+/*Page "collaboration"*/
+.container-collaboration-page h1 {
+    text-align: center;
+    margin: 15px;
+}
+.container-collaboration-page .section {
+    height: auto;
+    width: 1005;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-collaboration-page .section .container {
+    width: 75%;
+    height: 100%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.container-collaboration-page .section .container .collaborator {
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    width: 70%;
+    padding: 8px;
+    margin: 15px 5px;
+}
+.container-collaboration-page .section .container .collaborator h2 {
+    text-align: start;
+    margin-left: 15px;
+}
+.container-collaboration-page .section .container .collaborator .paragraph {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.3em;
+}
+.container-collaboration-page .section .container .collaborator-2 {
+    align-self: flex-end;
+}
+
+/*Page "description"*/
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+ .container-description-page {
+	 font-family: 'Noto Sans', sans-serif;
+	 font-size: 20px;
+}
+ .container-description-page .section {
+	 margin: 0 auto;
+	 height: auto;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+}
+ .container-description-page .section .container {
+	 width: 75%;
+	 height: 90%;
+	 padding: 5% 0;
+	 display: flex;
+	 flex-direction: column;
+}
+ .container-description-page .section .container h2 {
+	 width: 60%;
+	 letter-spacing: 1px;
+	 border-bottom: 2px solid #303030;
+	 text-align: start;
+	 margin-bottom: 5px;
+}
+ .container-description-page .section .container p {
+	 text-align: justify;
+	 margin: 10px 0;
+	 font-size: 17px;
+	 line-height: 1.3em;
+}
+ .container-description-page .section .container .container-paragraph {
+	 text-align: justify;
+	 margin: 10px 0;
+	 font-size: 17px;
+	 line-height: 1.5em;
+}
+ .container-description-page .section .container .container-paragraph .formulate {
+	 font-display: 600;
+	 text-align: center;
+	 margin: 20px 0;
+}
+ .container-description-page .section-1 {
+	 height: 60vh;
+	 justify-content: center;
+	 align-items: center;
+	 background-image: url("../../../assets/images/description/waves.jpg");
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+ .container-description-page .section-1 .container-section-1 {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: flex-start;
+}
+ .container-description-page .section-1 .container-section-1 h1 {
+	 width: 50%;
+	 text-align: start;
+	 color: #fff;
+	 font-size: 100px;
+	 letter-spacing: 5px;
+	 border-bottom: 10px solid #fff;
+	 transition: font-size 12s;
+	 -webkit-transition: font-size 2s;
+}
+ .container-description-page .section-1 .container-section-1 p {
+	 width: 100%;
+	 font-size: 1.5em;
+	 color: #fff;
+}
+ .container-description-page .section.section-2 {
+	 height: auto;
+}
+ .container-description-page .section.section-3 {
+	 background-color: #eee;
+	 height: auto;
+}
+ .container-description-page .section.section-4 .container-section-4 .container-paragraph {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 justify-content: space-evenly;
+}
+ .container-description-page .section.section-4 .container-section-4 .container-paragraph .paragraph {
+	 padding: 10px;
+	 margin: 5px;
+}
+ .container-description-page .section.section-4 .container-section-4 .paragraph-4 {
+	 flex-direction: column;
+}
+ .container-description-page .section.section-4 .container-section-4 .paragraph-9 {
+	 flex-direction: row;
+}
+ .container-description-page .section.section-4 .container-section-4 .paragraph-9 .paragraph {
+	 padding: 10px;
+}
+/*DISPOSITIVOS DE 768PX DE RESOLUCION*/
+ @media screen and (max-width: 768px) {
+	 .container-description-page {
+		 font-size: 16px;
+	}
+	 .container-description-page .section.section-1 {
+		 background-size: auto;
+		 justify-content: center;
+		 align-items: center;
+	}
+	 .container-description-page .section.section-1 .container-section-1 h1 {
+		 width: 100%;
+		 font-size: 28px;
+		 text-align: center;
+	}
+	 .container-description-page .section.section-4 .container-section-4 img {
+		 width: 100%;
+	}
+	 .container-description-page .section.section-4 .container-section-4 .paragraph-1, .container-description-page .section.section-4 .container-section-4 .paragraph-9 {
+		 flex-direction: column;
+	}
+	 .container-description-page .section.section-4 .container-section-4 .paragraph-1 img, .container-description-page .section.section-4 .container-section-4 .paragraph-9 img {
+		 width: 90%;
+	}
+}
+
+/*Page "desing"*/
+ 
+
 }
