@@ -1,0 +1,15 @@
+.container-experiments-page .section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-experiments-page .section .container-section-1 {
+    width: 75%;
+    height: 90%;
+    padding: 5% 0;
+}
+.container-experiments-page .section .container-section-1 ul li {
+    border-bottom: 1px solid black;
+}
