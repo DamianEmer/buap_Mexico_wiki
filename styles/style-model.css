@@ -1,0 +1,160 @@
+/* MODEL*/
+.container-model-page {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+.container-model-page .section {
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-model-page .section .container {
+    width: 75%;
+    height: 90%;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+}
+.container-model-page .section .container h2 {
+    width: 60%;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #303030;
+    text-align: start;
+    margin-bottom: 5px;
+}
+.container-model-page .section .container p {
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 17px;
+    line-height: 1.3em;
+}
+.container-model-page .section .container .container-paragraph {
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 17px;
+    line-height: 1.5em;
+}
+.container-model-page .section .container .container-paragraph .formulate {
+    font-display: 600;
+    text-align: center;
+    margin: 20px 0;
+}
+.container-model-page .section-1 {
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/description/materia-organica.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-model-page .section-1 .container-section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container-model-page .section-1 .container-section-1 h1 {
+    width: 50%;
+    text-align: start;
+    color: #fff;
+    font-size: 100px;
+    letter-spacing: 5px;
+    border-bottom: 10px solid #fff;
+    transition: font-size 12s;
+    -webkit-transition: font-size 2s;
+}
+.container-model-page .section-1 .container-section-1 p {
+    width: 100%;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.container-model-page .section.section-2 {
+    height: auto;
+}
+.container-model-page .section-2 .container-section-2 ul li{
+    width: 100%;
+    font-size: 0.8em;
+}
+.container-model-page .section-3 .container-section-3 .container-paragraph ul li span{
+    font-family: cursive;
+    margin: 0 5px;
+}
+.container-model-page .section-3 .container-section-3 .container-formulates img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.container-model-page .section-3 .container-section-3 .container-formulates .container-paragraph-formulate ul{
+    margin-left: 28%;
+}
+.container-model-page .section-3 .container-section-3 .container-formulates .container-paragraph-formulate ul li{
+    margin: 5px 0;
+}
+.container-model-page .section-3 .container-section-3 .container-formulates .container-paragraph-formulate ul li span{
+    font-family: cursive;
+         margin: 0 5px;
+}
+.container-model-page .section-3 .container-section-3 .container-formulates .container-paragraph-formulate {
+    text-align:justify;
+    margin: 10px 0;
+    font-size: 17px;
+    line-height: 1.3em;
+}
+.container-model-page .section-3 .container-section-3 .container-formulates .container-paragraph-formulate-center {
+    text-align:center;
+    margin: 10px 0;
+    font-size: 17px;
+    line-height: 1.3em;
+}
+
+.container-model-page .section-4 .container-section-4 ol li{
+    width: 100%;
+    font-size: 0.8em;
+}
+
+/*DISPOSITIVOS DE 768PX DE RESOLUCION*/
+@media screen and (max-width: 768px) {
+    .container-description-page {
+        font-size: 16px;
+   }
+    .container-description-page .section.section-1 {
+        background-size: auto;
+        justify-content: center;
+        align-items: center;
+   }
+    .container-description-page .section.section-1 .container-section-1 h1 {
+        width: 100%;
+        font-size: 28px;
+        text-align: center;
+   }
+
+   .container-model-page .section-3 .container-section-3 .container-formulates img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+   .container-model-page .section-3 .container-section-3 .container-formulates .container-paragraph-formulate ul{
+    margin-left: 5%;
+    }
+    .container-model-page .section-3 .container-section-3 .container-formulates .little-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+    .container-model-page .section-3 .container-section-3 .container-formulates .little-img-2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+      }
+  
+}
