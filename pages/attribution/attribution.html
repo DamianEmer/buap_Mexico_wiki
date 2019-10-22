@@ -6,8 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Attribute</title>
     <link rel="stylesheet" href="../../styles/styles.css">
+    <link rel="stylesheet" href="../../styles/style-nav-footer.css">
 </head>
 <body>
+        <div class="container-navbar">
+                <nav class="navbar">
+                    
+                    <h2 routerLink="/home">PLASTI<span>CO<span>2</span></span></h2>
+                    <label for="menu-hamburger">&#9776;</label>
+                    <input type="checkbox" id="menu-hamburger">
+                    
+            
+                    <ul class="menu">
+                        <li>
+                            <a>Team <span>▼</span></a>
+                            <ul class="sub-menu">
+                                <li><a routerLink="/team">Team</a></li>
+                                <li><a routerLink="/attributions">Attributions</a></li>
+                                <li><a routerLink="/collaborations">Collaborations</a></li>
+                                <li><a href="#">Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a>Project <span>▼</span></a>
+                            <ul class="sub-menu">
+                                <li><a routerLink="/description">Description</a></li>
+                                <li><a routerLink="/design">Design</a></li>
+                                <li><a routerLink="/experiments">Experiments</a></li>
+                                <li><a routerLink="/model">Model</a></li>
+                                <li><a href="#">Graphic Design</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a>Parts <span>▼</span></a>
+                            <ul class="sub-menu">
+                                <li><a routerLink="/parts">Parts</a></li>
+                                <li><a href="#">Part Collection</a></li>
+                            </ul>
+                        </li>
+                        <li><a routerLink="/safety">Safety</a></li>
+                        <li>
+                            <a>Human Practices <span>▼</span></a>
+                            <ul class="sub-menu">
+                                <li><a routerLink="/human">Human Practices</a></li>
+                                <li><a routerLink="/public-engagement">Public Engagement</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
     <div class="container-attribution-page">
         <h1>Attributions</h1>
         <section class="section section-1">
@@ -107,5 +155,37 @@
             </div>
         </section>
     </div>
+
+    <div class="footer">
+            <div class="image-logo">
+            </div>
+            <div class="content-footer">
+                <div class="title">
+                    <h3>PLASTICO<span>2</span></h3>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a>Home</a></li>
+                        <li><a>Project</a></li>
+                        <li><a>Parts</a></li>
+                        <li><a>Safety</a></li>
+                        <li><a>Human Practices</a></li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <ul>
+                        <li>
+                            <fa-icon [icon]="['fab', 'facebook']"></fa-icon>
+                        </li>
+                        <li>
+                            <fa-icon [icon]="['fab', 'instagram']"></fa-icon>
+                        </li>
+                        <li>
+                            <fa-icon [icon]="['fab', 'twitter']"></fa-icon>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
