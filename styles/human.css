@@ -1,0 +1,36 @@
+.container-human-page h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+.container-human-page .container-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+.container-human-page .container-sections .section {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    padding: 5% 0;
+}
+.container-human-page .container-sections .section h2 {
+    border-bottom: 2px solid #181818;
+    width: 50%;
+    margin: 8px 0;
+    text-align: center;
+}
+.container-human-page .container-sections .section h3 {
+    width: 60%;
+    text-align: center;
+    margin: 5px;
+}
+.container-human-page .container-sections .section p {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.3em;
+    margin: 10px 0;
+}
